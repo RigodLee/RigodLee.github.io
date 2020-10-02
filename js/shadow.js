@@ -1,4 +1,4 @@
 // 设置页脚博主会动的心
 $(document).ready(function(e){
-    $('.copyright').html('©2019 - 2020 <i style="color:#FF6A6A;animation: announ_animation 0.8s linear infinite;" class="fa fa-heartbeat"></i>shadow');
+    $('.copyright').html('©2019 - 2020 <img src="https://c-ssl.duitang.com/uploads/item/201601/08/20160108151722_JC3dV.thumb.1000_0.gif" />shadow');
 })
