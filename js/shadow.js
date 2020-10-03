@@ -6,7 +6,7 @@ $(document).ready(function(e){
 
 // 设置页脚博主会动的心
 $(document).ready(function(e){
-    $('.copyright').html('©2019 - 2020 <i class="fa-fw fas fa-heart card-announcement-animation cc_pointer"></i> shadow');
+    $('.copyright').html('©2020 <i class="fa-fw fas fa-heart card-announcement-animation cc_pointer"></i> shadow');
 })
 
 
@@ -38,7 +38,7 @@ return time;
 }
 
 function setTime() {
-var create_time = Math.round(new Date(Date.UTC(2020, 05, 02, 0, 0,  )).getTime() / 1000);
+var create_time = Math.round(new Date(Date.UTC(2020, 05, 02, 0, 0, 0)).getTime() / 1000);
 var timestamp = Math.round((new Date().getTime() + 8 * 60 * 60 * 1000) / 1000);
 currentTime = secondToDate((timestamp - create_time));
 currentTimeHtml = currentTime[0] + '年' + currentTime[1] + '天'
