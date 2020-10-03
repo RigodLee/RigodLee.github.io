@@ -1,0 +1,1 @@
+$("#framework-info").attr("style","display:none;");//隐藏div
