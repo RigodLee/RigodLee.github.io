@@ -6,5 +6,5 @@ $(document).ready(function(e){
 
 // 设置页脚博主会动的心
 $(document).ready(function(e){
-    $('.copyright').html('©2019 - 2020 <i style="color:#FF6A6A;animation: announ_animation 0.8s linear infinite;" class="faa-pulse animated"></i> shadow');
+    $('.copyright').html('©2019 - 2020 <i style="color:#FF6A6A;animation: announ_animation 0.8s linear infinite;" class="fas fa-infinity faa-pulse animated"></i> shadow');
 })
