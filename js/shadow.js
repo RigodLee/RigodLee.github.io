@@ -67,6 +67,6 @@ function show_date_time(){
     e_minsold=(e_hrsold-hrsold)*60;
     minsold=Math.floor((e_hrsold-hrsold)*60);
     seconds=Math.floor((e_minsold-minsold)*60);
-    span_dt_dt.innerHTML=' <font style=color:#FF0000>'+daysold+'</font> 天 <font style=color:#FF0000>'+hrsold+'</font> 时 <font style=color:#FF0000>'+minsold+'</font> 分 <font style=color:#FF0000>'+seconds+'</font> 秒';
+    span_dt_dt.innerHTML=' <font style=color:#2d85f0>'+daysold+'</font> 天 <font style=color:#f4433c>'+hrsold+'</font> 时 <font style=color:#ffbc32>'+minsold+'</font> 分 <font style=color:#0aa858>'+seconds+'</font> 秒';
     }
     show_date_time();
