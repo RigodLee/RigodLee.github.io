@@ -1,7 +1,7 @@
 // $("#framework-info").attr("style","display:none;");//隐藏div
 
 $(document).ready(function(e){
-        $('.framework-info').html('本站已安全运行了<span id="htmer_time" style="color: #000000;"></span>天');
+        $('.framework-info').html('本站已安全运行了<span id="htmer_time" style="color: #fff;"></span>');
     })
 
 // 设置页脚博主会动的心
