@@ -59,3 +59,9 @@
 #upj {
   transform: translate(-70px, -80px) !important;
 }
+
+/*up酱*/
+
+#upj:hover {
+  cursor: url(https://cdn.jsdelivr.net/gh/lete114/CDN@1.0/Use/JkuClT.png), auto;
+}
