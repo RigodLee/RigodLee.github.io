@@ -71,10 +71,12 @@ function show_date_time(){
     }
     show_date_time();
 
+// up酱
+/*添加图片top*/
 
 
 $(document).ready(function(e){
     var top_up = "<img id='upj' class='upj' style='max-width: 1000%; transform: translate(-70px,-70px);' src='https://cdn.jsdelivr.net/gh/rigodlee/BLOGCDN/img/upDoraemon.gif' title='回到顶部' >";
 
-    $('#go-up').innerHTML += top_up;
+    document.getElementById("go-up").innerHTML += top_up;
 })
