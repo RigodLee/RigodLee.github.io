@@ -45,23 +45,3 @@
   background: url(https://cdn.jsdelivr.net/gh/rigodlee/BLOGCDN/img/20200530181856.gif);
 } */
 
-/* 隐藏回到顶部按钮，替换为up酱 */
-
-#go-up i {
-  display: none;
-  background-color: transparent !important;
-}
-
-#go-up {
-  background-color: transparent !important;
-}
-
-#upj {
-  transform: translate(-70px, -80px) !important;
-}
-
-/*up酱*/
-
-#upj:hover {
-  cursor: url(https://cdn.jsdelivr.net/gh/lete114/CDN@1.0/Use/JkuClT.png), auto;
-}
