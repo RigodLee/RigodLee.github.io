@@ -32,3 +32,9 @@
   color: #fff;
   background-color: #49b1f5;
 }
+
+
+/* 头像背景 */
+.card-info-avatar:hover {
+  background: url(https://cdn.jsdelivr.net/gh/rigodlee/BLOGCDN/img/H3342af90d24b4d62b9bbfec9688ccc25M.gif);
+}
