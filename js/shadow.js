@@ -8,7 +8,7 @@ $(document).ready(function(e){
         $('.framework-info').html('本站已运行<SPAN id=span_dt_dt style="color: #fff;"></SPAN>');
     })
 
-// 设置页脚博主会动的心
+// 设置页脚会动的心
 $(document).ready(function(e){
     $('.copyright').html('©2020 <i class="fa-fw fas fa-heart card-announcement-animation cc_pointer"></i> shadow');
 })
@@ -70,3 +70,9 @@ function show_date_time(){
     span_dt_dt.innerHTML=' <font style=color:#2d85f0>'+daysold+'</font> 天 <font style=color:#f4433c>'+hrsold+'</font> 时 <font style=color:#ffbc32>'+minsold+'</font> 分 <font style=color:#0aa858>'+seconds+'</font> 秒';
     }
     show_date_time();
+
+// up酱
+/*添加图片top*/
+var top_up = "<img id='upj' class='upj' style='max-width: 1000%; transform: translate(-70px,-70px);' src='https://cdn.jsdelivr.net/gh/rigodlee/BLOGCDN/img/upDoraemon.gif' title='回到顶部' >";
+/*添加到返回顶部按钮下*/
+document.getElementById("go-up").innerHTML += top_up;
