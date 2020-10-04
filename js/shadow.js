@@ -71,10 +71,12 @@ function show_date_time(){
     }
     show_date_time();
 
-// up酱
-/*添加图片top*/
-// 判断移动端设备
 
-var top_up = "<img id='upj' class='upj' style='max-width: 1000%; transform: translate(-70px,-70px);' src='https://cdn.jsdelivr.net/gh/rigodlee/BLOGCDN/img/upDoraemon.gif' title='回到顶部' >";
-        /*添加到返回顶部按钮下*/
-document.getElementById("go-up").innerHTML = top_up;
+
+$(document).ready(function(e){
+    // up酱
+    /*添加图片top*/
+
+    /*添加到返回顶部按钮下*/
+    document.getElementById("go-up").innerHTML = "<img id='upj' class='upj' style='max-width: 1000%; transform: translate(-70px,-70px);' src='https://cdn.jsdelivr.net/gh/rigodlee/BLOGCDN/img/upDoraemon.gif' title='回到顶部' >";
+})
