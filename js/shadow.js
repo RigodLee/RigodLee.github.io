@@ -94,7 +94,7 @@ window.onload = function () {
              
     var vtop = '<img src="https://cdn.jsdelivr.net/gh/rigodlee/BLOGCDN/img/e92eef6d3d32097f37c9da214a6203e4.png">';
 
-    var vcurrent = document.getElementById("footer");
+    var vcurrent = document.getElementById("footer-wrap");
     //上面
     var newNodeTop = document.createElement("div");
     newNodeTop.innerHTML = vtop;
