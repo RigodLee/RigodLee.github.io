@@ -57,7 +57,7 @@ canvas:not(#ribbon-canvas), #web_bg {
 #footer{
   margin-top: 260px;
 }
-#footer-img{
+.footer-img{
   width: 100%;
   position: absolute;
   top: calc(100% - 284%);
