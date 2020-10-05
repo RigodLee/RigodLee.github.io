@@ -93,9 +93,18 @@ function show_date_time(){
 // })
 
 
-footerImg();
+
+    footerImg();
 function footerImg() {
     return (
+      $("#footer-wrap").css({
+        position: "absolute",
+        "text-align": "center",
+        top: 0,
+        right: 0,
+        left: 0,
+        bottom: 0,
+      }),
       $("footer").append(
         '<div class="footer-img"><img src="https://cdn.jsdelivr.net/gh/rigodlee/BLOGCDN/img/e92eef6d3d32097f37c9da214a6203e4.png"></div>'
       ),
