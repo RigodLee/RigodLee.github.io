@@ -90,16 +90,7 @@ function show_date_time(){
 //     $("#footer").append('<div id="footer-img"><img src="https://cdn.jsdelivr.net/gh/rigodlee/BLOGCDN/img/e92eef6d3d32097f37c9da214a6203e4.png"></div>');
 // })
 
-window.onload = function () {
-             
-    var vtop = '<img src="https://cdn.jsdelivr.net/gh/rigodlee/BLOGCDN/img/e92eef6d3d32097f37c9da214a6203e4.png">';
 
-    var vcurrent = document.getElementById("footer-wrap");
-    //上面
-    var newNodeTop = document.createElement("div");
-    newNodeTop.innerHTML = vtop;
-    newNodeTop.className = "footer-img";
-    vcurrent.parentNode.insertBefore(newNodeTop, vcurrent);
-
-
-}
+$(document).ready(function(e){
+    $('<div id="footer-img"><img src="https://cdn.jsdelivr.net/gh/rigodlee/BLOGCDN/img/e92eef6d3d32097f37c9da214a6203e4.png"></div>').prependTo($("#footer")); 
+})
