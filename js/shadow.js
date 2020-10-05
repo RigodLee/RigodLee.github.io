@@ -72,15 +72,17 @@ function show_date_time(){
     show_date_time();
 
 
-function add_footerImage(){
-    var newDiv = document.createElement("div");
-    newDiv.innerHTML = '<img src="https://cdn.jsdelivr.net/gh/rigodlee/BLOGCDN/img/e92eef6d3d32097f37c9da214a6203e4.png">';
-    newDiv.className = 'footer-img';
+// function add_footerImage(){
+//     var newDiv = document.createElement("div");
+//     newDiv.innerHTML = '<img src="https://cdn.jsdelivr.net/gh/rigodlee/BLOGCDN/img/e92eef6d3d32097f37c9da214a6203e4.png">';
+//     newDiv.className = 'footer-img';
 
-    var superDiv = document.getElementById("footer");
-    if(superDiv != null){
-        superDiv.insertBefore(newDiv,superDiv.nextSibling);
-    }
-}
+//     var superDiv = document.getElementById("footer");
+//     if(superDiv != null){
+//         superDiv.insertBefore(newDiv,superDiv.nextSibling);
+//     }
+// }
 
-add_footerImage();
+// add_footerImage();
+
+$("#footer").append('<div id="footer-img"><img src="https://cdn.jsdelivr.net/gh/rigodlee/BLOGCDN/img/e92eef6d3d32097f37c9da214a6203e4.png"></div>');
