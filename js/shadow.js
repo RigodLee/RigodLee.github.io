@@ -82,3 +82,5 @@ function add_footerImage(){
         superDiv.insertBefore(newDiv,superDiv.nextSibling);
     }
 }
+
+add_footerImage();
