@@ -67,5 +67,5 @@ canvas:not(#ribbon-canvas), #web_bg {
 }
 
 .footerimg img{
-  min-width: !important;
+  max-width: none;
 }
