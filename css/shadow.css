@@ -58,7 +58,7 @@ canvas:not(#ribbon-canvas), #web_bg {
   margin-top: 260px;
 }
 
-.footer-img{
+.footerimg{
   width: 100%;
   position: absolute;
   top: calc(100% - 284%);
@@ -66,6 +66,6 @@ canvas:not(#ribbon-canvas), #web_bg {
   vertical-align: middle;
 }
 
-.footer-img img{
+.footerimg img{
   min-width: !important;
 }
