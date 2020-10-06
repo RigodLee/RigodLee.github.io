@@ -480,3 +480,13 @@ div.snote.blue {
 div.snote.blue::before {
   color: #2196f3;
 }
+
+/* 导航图标颜色 */
+.card-announcement-animation-blue {
+  color: #49B1F5;
+  -webkit-animation: announ_animation 0.8s linear infinite;
+  -moz-animation: announ_animation 0.8s linear infinite;
+  -o-animation: announ_animation 0.8s linear infinite;
+  -ms-animation: announ_animation 0.8s linear infinite;
+  animation: announ_animation 0.8s linear infinite;
+}
